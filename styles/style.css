@@ -1,8 +1,62 @@
 /*
 Colors:
-
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
-White: #FFF
-
+White: #FFFFFF
 */
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+h1, p {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+p {
+  font-weight: lighter;
+}
+
+h2 {
+  color: #1A1A1A;
+  border-color: #00B172;
+  border-bottom: 5px;
+  padding-bottom: 20px;
+}
+
+/****** navigation ******/
+
+.navbar {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  padding: 5px;
+}
+
+/****** main content ******/
+
+.middle-section {
+  background-image: url(/images/landing.jpg);
+  background-size: cover;
+  height: 780px;
+  max-width: 100%;
+}
